@@ -13,7 +13,7 @@ int main()
     {
         for (int j = i + 1; j < n; j++)
         {
-            if (array[i]>array[j])
+            if (array[i]<array[j])
             {
                 int temp = array[i];
                 array[i] = array[j];
