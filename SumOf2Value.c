@@ -17,7 +17,8 @@ int main()
         {
             if (array[i] + array[j] == x)
             {
-                flag++;
+                flag=1;
+                printf("%d %d\n", array[i], array[j]);
             }
         }
     }
